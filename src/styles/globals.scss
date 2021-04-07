@@ -4,4 +4,29 @@
   padding: 0;
 }
 
-// TODO
+:root {
+  --highlight: #ff57b2;
+  --heading: #f8f8f8;
+  --background: #1a1d23;
+  --info: #bbbbbb;
+  --body: #d7d7d7;
+}
+
+body {
+  background-color: var(--background);
+  margin: 0 auto;
+  padding-bottom: 4rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+}

@@ -1,1 +1,33 @@
-// TODO
+.imgContainer {
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+  img {
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+  }
+}
+
+.content {
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.textContent {
+  margin-top: 2rem;
+  p {
+    line-height: 1.5rem;
+  }
+
+  h2 {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

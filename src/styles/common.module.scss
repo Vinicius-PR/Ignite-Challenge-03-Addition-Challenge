@@ -1,1 +1,34 @@
-// TODO
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: var(--heading);
+  }
+
+  p {
+    color: var(--body);
+  }
+}
+
+.information {
+  color: var(--info);
+  display: flex;
+  align-items: center;
+  color: var(--info);
+
+  div {
+    display: flex;
+    margin-right: 1.8rem;
+  }
+
+  time,
+  span {
+    margin-left: 1rem;
+  }
+}
