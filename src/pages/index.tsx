@@ -33,6 +33,7 @@ interface HomeProps {
 
 export default function Home({ postsPagination } : HomeProps): JSX.Element {
   const [posts, setPosts] = useState(postsPagination);
+  
   const handleLoadMorePosts = useCallback(async () => {
     const response = await fetch(posts.next_page);
     const data = await response.json();
