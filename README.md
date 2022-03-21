@@ -1,6 +1,6 @@
 # Ignite Additional Challenge 3 - Implementing some features to a blog
 
-This project consist in inplement some features using the resolution of the Challenge 3. You can access the this relosution [Cliking here](https://github.com/Vinicius-PR/Ignite-Challenge-03). The features to implement are:
+This project consist in implement some features using the resolution of the Challenge 3. You can access the this resolution [Cliking here](https://github.com/Vinicius-PR/Ignite-Challenge-03). The features to implement are:
 
 * Commnents using Utteranc;
 
