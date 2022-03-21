@@ -1,4 +1,4 @@
-# Ignite Challenge 3 - Creating a project from zero
+# Ignite Additional Challenge 3 - Implementing some features to a blog
 
 This project consist in create a blog using NextJS. The layout is on Figma and was done by a designer. My job is to implement all the styles and logic of a blog. The files that I received was empty and I had to implement:
 
