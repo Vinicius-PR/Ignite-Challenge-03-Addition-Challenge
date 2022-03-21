@@ -11,7 +11,7 @@ export default function Comments() {
 
           const scriptElement = document.createElement('script')
           scriptElement.setAttribute('src', 'https://utteranc.es/client.js')
-          scriptElement.setAttribute('repo', 'Vinicius-PR/blog_comments_utterances')
+          scriptElement.setAttribute('repo', 'Vinicius-PR/Ignite-Challenge-03-Addition-Challenge')
           scriptElement.setAttribute('issue-term', 'pathname')
           scriptElement.setAttribute('theme', 'photon-dark')
           scriptElement.setAttribute('crossorigin', 'anonymous')

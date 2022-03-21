@@ -17,6 +17,7 @@ import Comments from '../../components/Comments';
 
 interface Post {
   first_publication_date: string | null;
+  last_publication_date: string | null;
   data: {
     title: string;
     banner: {
@@ -38,6 +39,8 @@ interface PostProps {
 
 export default function Post({post} : PostProps) {
   const router = useRouter();
+
+  console.log(post);
 
   if(router.isFallback) {
     return <div className={styles.loading}>Carregando...</div>
@@ -78,7 +81,7 @@ export default function Post({post} : PostProps) {
           <div>
             <FiCalendar/>
             <time>
-            {format(new Date(post.first_publication_date), 'd MMM yyy', {
+            {format(new Date(post.first_publication_date), "d MMM yyy", {
                     locale: ptBR,
             })}
             </time>
@@ -93,6 +96,14 @@ export default function Post({post} : PostProps) {
             <FiClock/>
             <span>{readTime} min</span>
           </div>
+        </div>
+
+        <div className={commonStyles.edited_date}>     
+          <i>
+            {format(new Date(post.last_publication_date), "'*editato em 'd MMM yyy', às 'H:m", {
+                locale: ptBR,
+            })}
+          </i>
         </div>
 
         <section className={styles.textContent}>
